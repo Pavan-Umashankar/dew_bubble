@@ -45,7 +45,8 @@ def raoult_law_kvalue( T, P, a, *gamma):
 if __name__ == '__main__':
     from scipy.optimize import newton
 
-    P = 101325  # Pressure in Pa
+    P = 101325*0.0075  # Pressure in mmHg
+    T = T - 273.15 # Temperature of Celcius
 
     # We should update this example! Units of test not consistent with NIST
     propane = [6.80398, 803.810,  246.990]
