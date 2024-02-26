@@ -1,6 +1,4 @@
 #This is a comment made by Sarah Yoda to change this file.
-git push
-
 def antoine( a, T): # Neha - Testing pull request conflict 
     # Ps = antoine( a, T)
     #
